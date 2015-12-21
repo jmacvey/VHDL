@@ -1,0 +1,4 @@
+./display_modules/UART_tx_chr.vhd
+./display_modules/debounce2.vhd
+./mips_components/control.vhd
+./mips_components/memory.vhd
