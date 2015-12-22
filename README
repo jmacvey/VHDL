@@ -1,2 +1,15 @@
 This project contains source code which implements and tests a MIPS32 single-
-cycle processor.  The two sub-directories are mips_components and display_modules.  These are associated as such so that anyone may simply download them as libraries and write their own top-modules for implementation via port mapping.  "mips_components" contains the primary modules for the processor (Fetch, Decode, Execute). Control and memory modules were written by another person who wishes their code is not contained in a public repository.  However, you may e-mail me with requests for that code, and I can forward you to them.  Display modules are convenient for testing purposes (e.g. bit-tracking via terminals on manually-clocked processor, addresses on SSD module).  Any questions don't hesitate to e-mail.  Thanks.
+cycle processor.
+
+Directory Contents:
+
+  display_modules:
+    - Seven Segment decoder for hexadecimal values to their SSD counterparts.
+    - Tera Terminal translator (translates 32-bit values to ASCII equivalents for output to terminal windows at 38400 baud)
+  
+  mips_components:
+    - Fetch module
+    - Decode module
+    - Execute module
+    - Memory and Control modules available upon request (they were done by another person)
+
